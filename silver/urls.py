@@ -21,4 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.homepage),
     path('login/', include('login.urls')),
+    path('addtocard/',include('addtocard.urls')),
+    path('wishlist/', include('wishlist.urls')),
 ]
